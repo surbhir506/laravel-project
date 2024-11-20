@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    background-image: url(../images/Home_Page_Picture.jpg);
+    filter: brightness(80%);
+    opacity: 0.9;
+    background-size: cover;
+    height: 38vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+.jumbotron2{
+    background-image: url(../images/job_post.jpg);
+    background-size: cover;
+    height: 36vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+.title{
+    margin-top: 7vw;
+    font-weight: 600;
+}
+
+#companyTitle{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.9rem;
+}
+
+
+.company-logos{
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.qualities-list{
+    position: relative;
+    left: 8vw;
+}
+
+.mylist{
+    position: relative;
+    left: 3vw;
+}
+
+
+@media screen and (max-width: 950px) {
+    .jumbotron{
+        height: 40vw;
+    }
+
+    .jumbotron img{
+        width:26%;
+    }
+
+
+
+    .jumbotronHeading{
+        font-size: 1.4rem !important;
+    }
+
+    .jumbotronFirstPara{
+        font-size: 0.85rem !important;
+    }
+
+    .jumbotron_btn{
+        font-size: 0.7rem !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    
+    .jumbotron{
+        height: 43vw;
+    }
+
+    .jumbotron img{
+        width:26%;
+    }
+
+    .jumbotronHeading{
+        font-size: 1.2rem !important;
+    }
+
+    .jumbotronFirstPara{
+        font-size: 0.7rem !important;
+    }
+
+    .jumbotron_btn{
+        font-size: 0.5rem !important;
+    }
+
+    #companyTitle{
+        font-size: 2.5rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    .jumbotronHeading{
+        font-size: 1rem !important;
+    }
+    .jumbotronFirstPara{
+        display: none;
+    }
+
+    #companyTitle{
+        font-size: 2.1rem !important;
+    }
+
+    .comapnies_margin{
+        margin-top: 4vw !important;
+    }
+
+    .pointsTitle{
+        text-align: center !important;
+    }
+
+    .myimg{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pointsHeadings{
+        text-align: center;
+        left: 0;
+    }
+
+    .imgDesc{
+        flex-wrap: wrap;
+    }
+
+    .qualities-list{
+        left: 0;
+    }
+
+    .mylist{
+        left: 0;
+    }
+
+    .listDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 920px) {
+    .jumbotron2{
+        height: 40vw;
+    }
+
+    .jumbotron2 img{
+        width:26%;
+    }
+
+
+
+    .jumbotron2Heading{
+        font-size: 1.4rem !important;
+    }
+
+    .jumbotron2FirstPara{
+        font-size: 0.85rem !important;
+    }
+
+    .jumbotron2_btn{
+        font-size: 0.7rem !important;
+    }
+
+}
+
+
+@media screen and (max-width: 625px) {
+    .jumbotron2{
+        height: 43vw;
+    }
+
+    .jumbotron2 img{
+        width:31%;
+    }
+
+    .jumbotron2Heading{
+        font-size: 1.2rem !important;
+    }
+
+    .jumbotron2FirstPara{
+        font-size: 0.7rem !important;
+    }
+
+    .jumbotron2_btn{
+        font-size: 0.5rem !important;
+    }
+
+    #work_title{
+        font-size: 1.2rem !important;
+        text-align: center;
+    }
+
+    .work_description{
+        font-size: 0.9rem !important;
+        text-align: center;
+    }
+
+    .description_div{
+        width: 100% !important;
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .jumbotron2Heading{
+        font-size: 1.4rem !important;
+    }
+    .jumbotron2FirstPara{
+        display: none;
+    }
+    
+}
+
+
